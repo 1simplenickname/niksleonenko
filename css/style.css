@@ -8,17 +8,22 @@ body {
     overflow: hidden;
 }
 
-.active {
-    font-weight: bold;
-}
-
 .fade_in_logo {animation:fading 3s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
-.fade_in_arrow {animation:fading 9s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_motto_main {animation:fading 6s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_motto {animation:fading 9s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_arrow {animation:fading 15s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+
+#logo_small {
+    font-size: 250px;
+}
 
 #logo {
     font-size: 110px;
+}
+
+#logo, #logo_small {
     width: auto;
-    height: 750px;
+    height: 650px;
     padding-top: 250px;
 }
 
@@ -37,19 +42,20 @@ a:visited {
     color: white;
 }
 
-#about, #jobs, #projects, #contact {
+#profile, #experience, #abilities, #projects, #contact {
     padding-top: 100px;
     padding-bottom:400px;
     height: 950px;
 }
 
-#avatar {
-    border-width: 8px !important;
+.row {
+
 }
 
 .image {
     width: 250px;
     height: 250px;
+    border-width: 8px !important;
 }
 
 .progress-container {
@@ -60,7 +66,7 @@ a:visited {
 .progress-bar {
     height: 8px;
     background: white;
-    width: 0%;
+    width: 0;
 }
 
 /* ----------------------------------------------- */
