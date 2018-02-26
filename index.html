@@ -14,11 +14,11 @@
 
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="scroll" data-target="#nav" data-offset="50">
 
         <div id="home" class="container-fluid text-center">
-            <h1 id="logo" class="text-center fade_in">NIKS LEONENKO</h1>
-            <p class="arrow fade_in">&#x2193;</p>
+            <h1 id="logo" class="text-center fade_in_logo">NIKS LEONENKO</h1>
+            <a href="#about"><p class="arrow fade_in_arrow">&#x2193;</p></a>
         </div>
 
         <nav id="nav" class="navbar navbar-expand-sm navbar-dark justify-content-center sticky-top">
@@ -32,7 +32,13 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#social">Contact me</a>
+                    <a class="nav-link" href="#jobs">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact me</a>
                 </li>
 
             </ul>
@@ -44,7 +50,15 @@
             <img id="avatar" class="image img-fluid rounded-circle border border-white" src="img/avatar.jpg">
         </div>
 
-        <div id="social" class="container-fluid text-center">
+        <div id="jobs" class="container-fluid text-center">
+            <h1>Job experiences</h1>
+        </div>
+
+        <div id="projects" class="container-fluid text-center">
+            <h1>Projects</h1>
+        </div>
+
+        <div id="contact" class="container-fluid text-center">
             <h1>Social</h1>
         </div>
 
@@ -52,8 +66,8 @@
             <div class="progress-bar" id="myBar"></div>
         </div>
 
-
-        <!--Following code provided by w3schools -->
+        <!-------------------------------------------------------------------------------->
+        <!----------------------Following code provided by w3schools---------------------->
         <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_indicator-->
         <script>
             window.onscroll = function() {myFunction()};
@@ -65,7 +79,7 @@
                 document.getElementById("myBar").style.width = scrolled + "%";
             }
         </script>
-        <!---->
+        <!-------------------------------------------------------------------------------->
 
     </body>
 

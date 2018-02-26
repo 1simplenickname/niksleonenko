@@ -5,14 +5,15 @@
 
 body {
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .active {
     font-weight: bold;
 }
 
-.fade_in {animation:fading 3s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_logo {animation:fading 3s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_arrow {animation:fading 9s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
 
 #logo {
     font-size: 110px;
@@ -27,7 +28,16 @@ body {
     height: 200px;
 }
 
-#about, #social {
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+#about, #jobs, #projects, #contact {
     padding-top: 100px;
     padding-bottom:400px;
     height: 950px;
@@ -82,21 +92,4 @@ body::before {
     }
 }
 /* -----------------------------------------------*/
-
-
-/*!* ----------------------------------------------- *!*/
-/*!* Following code provided by gradient-animator *!*/
-/*!* https://www.gradient-animator.com/ *!*/
-/*body {*/
-/*background: linear-gradient(61deg, #ff1900, #ff9101, #fee600);*/
-/*background-size: 600% 600%;*/
-/*animation: bg-change 59s ease infinite;*/
-/*}*/
-
-/*@keyframes bg-change {*/
-/*0%{background-position:0% 86%}*/
-/*50%{background-position:100% 15%}*/
-/*100%{background-position:0% 86%}*/
-/*}*/
-/*!* -----------------------------------------------*!*/
 
