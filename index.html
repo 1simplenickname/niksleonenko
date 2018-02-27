@@ -9,16 +9,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="img/NL.png">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     </head>
 
-    <body data-spy="scroll" data-target="#nav" data-offset="70">
+    <body>
 
         <div id="home" class="container-fluid text-center">
-            <h1 id="logo_small" class="d-sm-none text-center fade_in_log">NĻ</h1>
-            <h1 id="logo" class="d-none d-md-block text-center fade_in_logo">NIKS ĻEOŅENKO</h1>
+            <h1 id="logo_small" class="d-block d-sm-none text-center fade_in_logo">NĻ</h1>
+            <h1 id="logo" class="d-none d-sm-block text-center fade_in_logo">NIKS ĻEOŅENKO</h1>
             <h2 id="motto_main" class="text-center fade_in_motto_main">You can't control what people say.</h2>
             <h2 id="motto" class="text-center fade_in_motto">Just be the best man that you can be.</h2>
             <a href="#profile"><p class="arrow fade_in_arrow">&#x2193;</p></a>
@@ -26,21 +29,27 @@
 
         <nav id="nav" class="navbar navbar-expand-sm navbar-dark justify-content-center sticky-top">
 
-            <ul class="navbar-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#abilities">Abilities</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="nav navbar-nav">
 
-            </ul>
+                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#abilities">Abilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
 
         </nav>
 
         <div id="profile" class="container-fluid text-center">
 
-            <h1>Hiya, my name's Niks.</h1>
+            <h1 class="font-weight-bold">Hiya, my name's Niks.</h1>
             <div class="row p-3 m-5">
 
                 <div class="col-sm">
@@ -91,21 +100,6 @@
         <div class="progress-container fixed-top">
             <div class="progress-bar" id="myBar"></div>
         </div>
-
-        <!-------------------------------------------------------------------------------->
-        <!----------------------Following code provided by w3schools---------------------->
-        <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_indicator-->
-        <script>
-            window.onscroll = function() {myFunction()};
-
-            function myFunction() {
-                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                var scrolled = (winScroll / height) * 100;
-                document.getElementById("myBar").style.width = scrolled + "%";
-            }
-        </script>
-        <!-------------------------------------------------------------------------------->
 
     </body>
 
