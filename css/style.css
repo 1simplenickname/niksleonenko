@@ -9,10 +9,9 @@ body {
     font-size: 25px;
 }
 
-.fade_in_logo {animation:fading 3s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_logo {animation:fading 2s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
 .fade_in_motto_main {animation:fading 6s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
-.fade_in_motto {animation:fading 9s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
-.fade_in_arrow {animation:fading 13s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
+.fade_in_motto, .fade_in_arrow {animation:fading 7s}@keyframes fading{0%{opacity:0}100%{opacity:1}}
 
 #logo_small {
     font-size: 200px;
@@ -21,8 +20,8 @@ body {
 
 #logo {
     font-size: 110px;
-    padding-top: 250px;
-    height: 450px;
+    padding-top: 150px;
+    height: 350px;
 }
 
 #logo, #logo_small {
@@ -33,22 +32,31 @@ body {
     font-size: 20px;
 }
 
+#motto_main, #motto, #motto_main_mobile, #motto_mobile {
+    font-family: 'Sriracha', cursive;
+}
+
 #motto {
     padding-bottom: 200px;
 }
 
 #motto_mobile {
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 #arrow_text_mobile {
     padding-bottom: 425px;
 }
 
+#arrow_text_mobile_border {
+    border-width: 4px !important; ;
+}
+
 #arrow {
     font-family: "calibri" , sans-serif;
     height: 100px;
     font-size: 90px;
+    padding-bottom: 300px;
 }
 
 a:link {
