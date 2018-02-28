@@ -38,17 +38,17 @@ body {
 }
 
 #motto_mobile {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
-#arrow, #arrow_mobile {
+#arrow_text_mobile {
+    padding-bottom: 425px;
+}
+
+#arrow {
     font-family: "calibri" , sans-serif;
-    font-size: 100px;
     height: 100px;
-}
-
-#arrow_mobile {
-    padding-bottom: 200px;
+    font-size: 90px;
 }
 
 a:link {
