@@ -27,6 +27,11 @@ body {
 
 #logo, #logo_small {
     width: auto;
+    font-weight: bold;
+}
+
+#motto, #motto_main, #motto_mobile, #motto_main_mobile, #arrow_text, #arrow_text_mobile {
+    font-weight: bold;
 }
 
 #motto_main_mobile, #motto_mobile, #arrow_text_mobile {
@@ -41,10 +46,14 @@ body {
     padding-bottom: 25px;
 }
 
-#arrow {
+#arrow, #arrow_mobile {
     font-family: "calibri" , sans-serif;
     font-size: 100px;
     height: 100px;
+}
+
+#arrow_mobile {
+    padding-bottom: 200px;
 }
 
 a:link {
