@@ -27,11 +27,6 @@ body {
 
 #logo, #logo_small {
     width: auto;
-    font-weight: bold;
-}
-
-#motto, #motto_main, #motto_mobile, #motto_main_mobile, #arrow_text, #arrow_text_mobile {
-    font-weight: bold;
 }
 
 #motto_main_mobile, #motto_mobile, #arrow_text_mobile {
@@ -69,10 +64,6 @@ a:visited {
     padding-top: 100px;
     padding-bottom:400px;
     height: 950px;
-}
-
-.row {
-
 }
 
 .image {
