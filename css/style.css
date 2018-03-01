@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #nav {
@@ -32,7 +32,8 @@ body {
     font-size: 20px;
 }
 
-#motto_main, #motto, #motto_main_mobile, #motto_mobile {
+#motto_main, #motto, #motto_main_mobile,
+#motto_mobile, #arrow_text_mobile, #arrow_text, #profile_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -55,8 +56,8 @@ body {
 #arrow {
     font-family: "calibri" , sans-serif;
     height: 100px;
-    font-size: 90px;
-    padding-bottom: 300px;
+    font-size: 175px;
+    padding-bottom: 500px;
 }
 
 a:link {
@@ -74,9 +75,17 @@ a:visited {
     height: 950px;
 }
 
+#profile_header {
+    padding-bottom: 50px;
+}
+
+#profile_content {
+    font-size: 25px;
+}
+
 .image {
-    width: 250px;
-    height: 250px;
+    /*width: 250px;*/
+    /*height: 250px;*/
     border-width: 8px !important;
 }
 
