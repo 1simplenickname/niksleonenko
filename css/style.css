@@ -78,17 +78,26 @@ a:visited {
     color: white;
 }
 
-#profile, #experience, #abilities, #projects, #contact {
+#profile, #experience, #projects, #contact {
     padding-top: 100px;
     height: 1500px;
 }
 
-#profile_header {
+#abilities {
+    padding-top: 100px;
+    height: 2250px
+}
+
+#profile_header, #abilities_header {
     padding-bottom: 50px;
 }
 
 #profile_content {
     font-size: 25px;
+}
+
+#abilities_content_row_one, #abilities_content_row_two {
+    padding-bottom: 50px;
 }
 
 .image {
