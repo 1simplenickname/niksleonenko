@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 ::selection{
@@ -88,11 +88,12 @@ a:visited {
     height: 2250px
 }
 
-#projects_header, #abilities_header {
+#profile_header, #abilities_header {
     padding-bottom: 50px;
 }
 
 .profile_header, .abilities_header {
+    font-size: 20px !important;
     font-family: 'Sriracha', cursive;
 }
 
@@ -101,7 +102,7 @@ a:visited {
 }
 
 #abilities_content_row_one, #abilities_content_row_two {
-    font-size: 17px;
+    font-size: 15px;
     padding-bottom: 50px;
 }
 
