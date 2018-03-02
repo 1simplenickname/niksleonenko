@@ -41,8 +41,8 @@ body {
     font-size: 20px;
 }
 
-#motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header
-, #experience_header, #abilities_header, #projects_header, #contact_header {
+#motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header, #experience_header,
+#abilities_header, #projects_header, #contact_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -88,8 +88,12 @@ a:visited {
     height: 2250px
 }
 
-#profile_header, #abilities_header {
+#projects_header, #abilities_header {
     padding-bottom: 50px;
+}
+
+.profile_header, .abilities_header {
+    font-family: 'Sriracha', cursive;
 }
 
 #profile_content {
@@ -97,6 +101,7 @@ a:visited {
 }
 
 #abilities_content_row_one, #abilities_content_row_two {
+    font-size: 17px;
     padding-bottom: 50px;
 }
 
