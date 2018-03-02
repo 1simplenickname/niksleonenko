@@ -41,7 +41,8 @@ body {
     font-size: 20px;
 }
 
-#motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header {
+#motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header
+, #experience_header, #abilities_header, #projects_header, #contact_header {
     font-family: 'Sriracha', cursive;
 }
 
