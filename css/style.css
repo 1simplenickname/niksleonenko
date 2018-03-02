@@ -4,6 +4,15 @@ body {
     /*overflow: hidden;*/
 }
 
+::selection{
+    background: white;
+    color: black;
+}
+::-moz-selection {
+    background: white;
+    color: black;
+}
+
 #nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
@@ -32,8 +41,7 @@ body {
     font-size: 20px;
 }
 
-#motto_main, #motto, #motto_main_mobile,
-#motto_mobile, #arrow_text_mobile, #arrow_text, #profile_header {
+#motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -71,8 +79,7 @@ a:visited {
 
 #profile, #experience, #abilities, #projects, #contact {
     padding-top: 100px;
-    padding-bottom:400px;
-    height: 950px;
+    height: 1500px;
 }
 
 #profile_header {
@@ -84,8 +91,6 @@ a:visited {
 }
 
 .image {
-    /*width: 250px;*/
-    /*height: 250px;*/
     border-width: 8px !important;
 }
 
