@@ -4,15 +4,6 @@ body {
     /*overflow: hidden;*/
 }
 
-::selection{
-    background: white;
-    color: black;
-}
-::-moz-selection {
-    background: white;
-    color: black;
-}
-
 #nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
@@ -69,22 +60,12 @@ body {
     padding-bottom: 500px;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
-#profile, #experience, #projects, #contact {
-    padding-top: 100px;
+#profile, #experience, #abilities, #projects, #contact {
+    padding-top: 75px;
     height: 1500px;
 }
 
 #abilities {
-    padding-top: 100px;
     height: 2500px
 }
 
@@ -108,6 +89,24 @@ a:visited {
 
 .image {
     border-width: 8px !important;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+::selection{
+    background: white;
+    color: black;
+}
+::-moz-selection {
+    background: white;
+    color: black;
 }
 
 /* ----------------------------------------------- */
