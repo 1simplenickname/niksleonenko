@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 #nav {
@@ -33,7 +33,7 @@ body {
 }
 
 #motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header, #experience_header,
-#abilities_header, #projects_header, #contact_header {
+#abilities_header, #projects_header, #contact_header, span.caption_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -73,7 +73,7 @@ body {
     padding-bottom: 50px;
 }
 
-.profile_header, .abilities_header {
+.profile_header, .abilities_header, span.caption_header {
     font-size: 20px !important;
     font-family: 'Sriracha', cursive;
 }
