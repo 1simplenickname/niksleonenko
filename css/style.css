@@ -61,7 +61,7 @@ body {
 }
 
 #profile, #experience, #abilities, #projects, #contact {
-    padding-top: 75px;
+    padding-top: 50px;
     height: 1500px;
 }
 
@@ -87,8 +87,14 @@ body {
     padding-bottom: 50px;
 }
 
+
 .image {
     border-width: 8px !important;
+}
+
+.carousel-caption {
+    top: 50px;
+    bottom: auto;
 }
 
 a:link {
