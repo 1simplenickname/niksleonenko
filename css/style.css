@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #nav {
@@ -34,7 +34,7 @@ body {
 
 #motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header, #experience_header,
 #abilities_header, #projects_header, #contact_header,.profile_header, .abilities_header,
-span.caption_header {
+span.caption_header, #social_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -70,8 +70,8 @@ span.caption_header {
     height: 2500px
 }
 
-#profile_header, #abilities_header, #contact_header {
-    padding-bottom: 50px;
+#profile_header, #abilities_header, #contact_header, #contact_content {
+    padding-bottom: 25px;
 }
 
 .profile_header, .abilities_header{
@@ -88,15 +88,23 @@ span.caption_header {
 }
 
 #contact_content {
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#social_top, #social_bottom {
-    padding-top: 50px;
+#social_top {
+    /*padding-top: 50px;*/
+}
+
+.image, .you_are_the_only_exception {
+    background-color: white;
 }
 
 .image {
     border-width: 8px !important;
+}
+
+.you_are_the_only_exception {
+    border-width: 2px !important;
 }
 
 .carousel-caption {
