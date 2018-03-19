@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 #nav {
@@ -34,7 +34,7 @@ body {
 
 #motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header, #experience_header,
 #abilities_header, #projects_header, #contact_header,.profile_header, .abilities_header,
-span.caption_header, #social_header {
+span.caption_header, #social_header, #video_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -61,7 +61,7 @@ span.caption_header, #social_header {
     padding-bottom: 500px;
 }
 
-#profile, #experience, #abilities, #projects, #contact {
+#profile, #experience, #abilities, #projects, #contact, #video {
     padding-top: 55px;
     height: 1500px;
 }
@@ -137,15 +137,15 @@ a:visited {
 /* ----------------------------------------------- */
 /* Following code provided by thetypebeast */
 /* https://codepen.io/thetypebeast/pen/KWNGGd */
-* { /* reset margins and paddings on all elements */
+* {
     margin:0;
     padding:0;
 }
 
 body::before {
-    content:""; /* required for ::before */
-    position:fixed; /* don't scroll with page */
-    z-index:-100; /* place behind elements on page */
+    content:"";
+    position:fixed;
+    z-index:-100;
     width:100%;
     height:100%;
     background-color:#FF1900;
