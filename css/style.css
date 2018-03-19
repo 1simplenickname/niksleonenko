@@ -107,6 +107,10 @@ span.caption_header, #social_header, #video_header {
     border-width: 2px !important;
 }
 
+.form_header, .form_content {
+    color: black;
+}
+
 .carousel-caption {
     top: 50px;
     bottom: auto;
