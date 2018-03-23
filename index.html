@@ -40,21 +40,13 @@
     <h2 id="motto_mobile" class="font-weight-bold d-block d-sm-none fade_in_motto">
         Just be the best man that you can be."
     </h2>
-    <h3 id="arrow_text" class="font-weight-bold d-none d-sm-block fade_in_arrow">
-        Click the arrow to begin
+    <h3 id="home_button" class="font-weight-bold fade_in_button">
+        <button type="button" class="btn btn-outline-danger btn-lg">
+            <a href="#profile">
+                Click here to begin
+            </a>
+        </button>
     </h3>
-    <h3 id="arrow_text_mobile" class="font-weight-bold d-block d-sm-none fade_in_arrow">
-        <a href="#profile">
-                    <span id="arrow_text_mobile_border" class="p-1 border rounded">
-                        Tap to begin
-                    </span>
-        </a>
-    </h3>
-    <a href="#profile">
-        <p id="arrow" class="d-none d-sm-block fade_in_arrow align-text-top">
-            &#x2193;
-        </p>
-    </a>
 </div>
 
 <nav id="nav" class="navbar navbar-expand-sm navbar-dark justify-content-center sticky-top">
@@ -432,7 +424,8 @@
                     </a>
                     <br>
 
-                    <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                    <button type="button" class="btn btn-outline-success form_button"
+                            data-toggle="modal"
                             data-target="#contact_form">
                         Or contact me directly
                     </button>
@@ -441,20 +434,34 @@
 
                 <div class="modal fade" id="contact_form" tabindex="-1" role="dialog"
                      aria-labelledby="exampleModalLabel" aria-hidden="true">
+
                     <div class="modal-dialog modal-dialog-centered" role="document">
+
                         <div class="modal-content">
+
                             <div class="modal-header">
+
                                 <h5 class="modal-title form_header" id="exampleModalLabel">
                                     Form for contacting me directly
                                 </h5>
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close">
+                                    <span aria-hidden="true">
+                                        &times;
+                                    </span>
+                                </button>
                             </div>
+
                             <div class="modal-body">
+
                                 <p class="form_content">
+
                                     <fieldset>
                                 <p class="form_content">
                                     <label for="form_name">
                                         Name:
                                     </label>
+                                    <br>
                                     <input type="text" id="form_name"
                                            placeholder="Name">
                                 </p>
@@ -462,528 +469,787 @@
                                     <label for="form_surname">
                                         Surname:
                                     </label>
+                                    <br>
                                     <input type="text" id="form_surname"
                                            placeholder="Surname">
                                 </p>
                                 <p class="form_content">
                                     <label for="form_country">
-                                        Country
+                                        Country:
                                     </label>
                                     <select id="form_country">
-                                        <option value=""></option>
+                                        <option value="">
+                                            No country selected
+                                        </option>
                                         <option value="AF">
                                             Afghanistan
                                         </option>
                                         <option value="AX">
-                                            Åland Islands</option>
+                                            Åland Islands
+                                        </option>
                                         <option value="AL">
-                                            Albania</option>
+                                            Albania
+                                        </option>
                                         <option value="DZ">
-                                            Algeria</option>
+                                            Algeria
+                                        </option>
                                         <option value="AS">
-                                            American Samoa</option>
+                                            American Samoa
+                                        </option>
                                         <option value="AD">
-                                            Andorra</option>
+                                            Andorra
+                                        </option>
                                         <option value="AO">
                                             Angola</option>
-                                        <option value="AI">Anguilla</option>
+                                        <option value="AI">
+                                            Anguilla
+                                        </option>
                                         <option value="AQ">
-                                            Antarctica</option>
+                                            Antarctica
+                                        </option>
                                         <option value="AG">
-                                            Antigua and Barbuda</option>
+                                            Antigua and Barbuda
+                                        </option>
                                         <option value="AR">
-                                            Argentina</option>
+                                            Argentina
+                                        </option>
                                         <option value="AM">
-                                            Armenia</option>
+                                            Armenia
+                                        </option>
                                         <option value="AW">
-                                            Aruba</option>
+                                            Aruba
+                                        </option>
                                         <option value="AU">
-                                            Australia</option>
+                                            Australia
+                                        </option>
                                         <option value="AT">
-                                            Austria</option>
+                                            Austria
+                                        </option>
                                         <option value="AZ">
-                                            Azerbaijan</option>
+                                            Azerbaijan
+                                        </option>
                                         <option value="BS">
-                                            Bahamas</option>
+                                            Bahamas
+                                        </option>
                                         <option value="BH">
-                                            Bahrain</option>
+                                            Bahrain
+                                        </option>
                                         <option value="BD">
-                                            Bangladesh</option>
+                                            Bangladesh
+                                        </option>
                                         <option value="BB">
-                                            Barbados</option>
+                                            Barbados
+                                        </option>
                                         <option value="BY">
-                                            Belarus</option>
+                                            Belarus
+                                        </option>
                                         <option value="BE">
-                                            Belgium</option>
+                                            Belgium
+                                        </option>
                                         <option value="BZ">
-                                            Belize</option>
+                                            Belize
+                                        </option>
                                         <option value="BJ">
-                                            Benin</option>
+                                            Benin
+                                        </option>
                                         <option value="BM">
-                                            Bermuda</option>
+                                            Bermuda
+                                        </option>
                                         <option value="BT">
-                                            Bhutan</option>
+                                            Bhutan
+                                        </option>
                                         <option value="BO">
-                                            Bolivia</option>
+                                            Bolivia
+                                        </option>
                                         <option value="BQ">
-                                            Bonaire</option>
+                                            Bonaire
+                                        </option>
                                         <option value="BA">
-                                            Bosnia and Herzegovina</option>
+                                            Bosnia and Herzegovina
+                                        </option>
                                         <option value="BW">
-                                            Botswana</option>
+                                            Botswana
+                                        </option>
                                         <option value="BV">
-                                            Bouvet Island</option>
+                                            Bouvet Island
+                                        </option>
                                         <option value="BR">
-                                            Brazil</option>
+                                            Brazil
+                                        </option>
                                         <option value="IO">
-                                            British Indian Ocean Territory</option>
+                                            British Indian Ocean Territory
+                                        </option>
                                         <option value="BN">
-                                            Brunei Darussalam</option>
+                                            Brunei Darussalam
+                                        </option>
                                         <option value="BG">
-                                            Bulgaria</option>
+                                            Bulgaria
+                                        </option>
                                         <option value="BF">
-                                            Burkina Faso</option>
+                                            Burkina Faso
+                                        </option>
                                         <option value="BI">
-                                            Burundi</option>
+                                            Burundi
+                                        </option>
                                         <option value="KH">
-                                            Cambodia</option>
+                                            Cambodia
+                                        </option>
                                         <option value="CM">
-                                            Cameroon</option>
+                                            Cameroon
+                                        </option>
                                         <option value="CA">
-                                            Canada</option>
+                                            Canada
+                                        </option>
                                         <option value="CV">
-                                            Cape Verde</option>
+                                            Cape Verde
+                                        </option>
                                         <option value="KY">
-                                            Cayman Islands</option>
+                                            Cayman Islands
+                                        </option>
                                         <option value="CF">
-                                            Central African Republic</option>
+                                            Central African Republic
+                                        </option>
                                         <option value="TD">
-                                            Chad</option>
+                                            Chad
+                                        </option>
                                         <option value="CL">
-                                            Chile</option>
+                                            Chile
+                                        </option>
                                         <option value="CN">
-                                            China</option>
+                                            China
+                                        </option>
                                         <option value="CX">
-                                            Christmas Island</option>
+                                            Christmas Island
+                                        </option>
                                         <option value="CC">
-                                            Cocos (Keeling) Islands</option>
+                                            Cocos (Keeling) Islands
+                                        </option>
                                         <option value="CO">
-
+                                            Colombia
                                         </option>
                                         <option value="KM">
-                                            Comoros</option>
+                                            Comoros
+                                        </option>
                                         <option value="CG">
-                                            Congo</option>
+                                            Congo
+                                        </option>
                                         <option value="CD">
-                                            Congo</option>
+                                            Congo
+                                        </option>
                                         <option value="CK">
-                                            Cook Islands</option>
+                                            Cook Islands
+                                        </option>
                                         <option value="CR">
-                                            Costa Rica</option>
+                                            Costa Rica
+                                        </option>
                                         <option value="CI">
-                                            Côte d'Ivoire</option>
+                                            Côte d'Ivoire
+                                        </option>
                                         <option value="HR">
-                                            Croatia</option>
+                                            Croatia
+                                        </option>
                                         <option value="CU">
-                                            Cuba</option>
+                                            Cuba
+                                        </option>
                                         <option value="CW">
-                                            Curaçao</option>
+                                            Curaçao
+                                        </option>
                                         <option value="CY">
-                                            Cyprus</option>
+                                            Cyprus
+                                        </option>
                                         <option value="CZ">
-                                            Czech Republic</option>
+                                            Czech Republic
+                                        </option>
                                         <option value="DK">
-                                            Denmark</option>
+                                            Denmark
+                                        </option>
                                         <option value="DJ">
-                                            Djibouti</option>
+                                            Djibouti
+                                        </option>
                                         <option value="DM">
-                                            Dominica</option>
+                                            Dominica
+                                        </option>
                                         <option value="DO">
-                                            Dominican Republic</option>
+                                            Dominican Republic
+                                        </option>
                                         <option value="EC">
-                                            Ecuador</option>
+                                            Ecuador
+                                        </option>
                                         <option value="EG">
-                                            Egypt</option>
+                                            Egypt
+                                        </option>
                                         <option value="SV">
-                                            El Salvador</option>
+                                            El Salvador
+                                        </option>
                                         <option value="GQ">
-                                            Equatorial Guinea</option>
+                                            Equatorial Guinea
+                                        </option>
                                         <option value="ER">
-                                            Eritrea</option>
+                                            Eritrea
+                                        </option>
                                         <option value="EE">
-                                            Estonia</option>
+                                            Estonia
+                                        </option>
                                         <option value="ET">
-                                            Ethiopia</option>
+                                            Ethiopia
+                                        </option>
                                         <option value="FK">
-                                            Falkland Islands (Malvinas)</option>
+                                            Falkland Islands
+                                        </option>
                                         <option value="FO">
-                                            Faroe Islands</option>
+                                            Faroe Islands
+                                        </option>
                                         <option value="FJ">
-                                            Fiji</option>
+                                            Fiji
+                                        </option>
                                         <option value="FI">
-                                            Finland</option>
+                                            Finland
+                                        </option>
                                         <option value="FR">
-                                            France</option>
+                                            France
+                                        </option>
                                         <option value="GF">
-                                            French Guiana</option>
+                                            French Guiana
+                                        </option>
                                         <option value="PF">
-                                            French Polynesia</option>
+                                            French Polynesia
+                                        </option>
                                         <option value="TF">
-                                            French Southern Territories</option>
+                                            French Southern Territories
+                                        </option>
                                         <option value="GA">
-                                            Gabon</option>
+                                            Gabon
+                                        </option>
                                         <option value="GM">
-                                            Gambia</option>
+                                            Gambia
+                                        </option>
                                         <option value="GE">
-                                            Georgia</option>
+                                            Georgia
+                                        </option>
                                         <option value="DE">
-                                            Germany</option>
+                                            Germany
+                                        </option>
                                         <option value="GH">
-                                            Ghana</option>
+                                            Ghana
+                                        </option>
                                         <option value="GI">
-                                            Gibraltar</option>
+                                            Gibraltar
+                                        </option>
                                         <option value="GR">
-                                            Greece</option>
+                                            Greece
+                                        </option>
                                         <option value="GL">
-                                            Greenland</option>
+                                            Greenland
+                                        </option>
                                         <option value="GD">
-                                            Grenada</option>
+                                            Grenada
+                                        </option>
                                         <option value="GP">
-                                            Guadeloupe</option>
+                                            Guadeloupe
+                                        </option>
                                         <option value="GU">
-                                            Guam</option>
+                                            Guam
+                                        </option>
                                         <option value="GT">
-                                            Guatemala</option>
+                                            Guatemala
+                                        </option>
                                         <option value="GG">
-                                            Guernsey</option>
+                                            Guernsey
+                                        </option>
                                         <option value="GN">
-                                            Guinea</option>
+                                            Guinea
+                                        </option>
                                         <option value="GW">
-                                            Guinea-Bissau</option>
+                                            Guinea-Bissau
+                                        </option>
                                         <option value="GY">
-                                            Guyana</option>
+                                            Guyana
+                                        </option>
                                         <option value="HT">
-                                            Haiti</option>
+                                            Haiti
+                                        </option>
                                         <option value="HM">
-                                            Heard Island and McDonald Islands</option>
+                                            Heard Island, McDonald Islands
+                                        </option>
                                         <option value="VA">
-                                            Holy See (Vatican City State)</option>
+                                            Holy See
+                                        </option>
                                         <option value="HN">
-                                            Honduras</option>
+                                            Honduras
+                                        </option>
                                         <option value="HK">
-                                            Hong Kong</option>
+                                            Hong Kong
+                                        </option>
                                         <option value="HU">
-                                            Hungary</option>
+                                            Hungary
+                                        </option>
                                         <option value="IS">
-                                            Iceland</option>
+                                            Iceland
+                                        </option>
                                         <option value="IN">
-                                            India</option>
+                                            India
+                                        </option>
                                         <option value="ID">
-                                            Indonesia</option>
+                                            Indonesia
+                                        </option>
                                         <option value="IR">
-                                            Iran, Islamic Republic of</option>
+                                            Iran
+                                        </option>
                                         <option value="IQ">
-                                            Iraq</option>
+                                            Iraq
+                                        </option>
                                         <option value="IE">
-                                            Ireland</option>
+                                            Ireland
+                                        </option>
                                         <option value="IM">
-                                            Isle of Man</option>
+                                            Isle of Man
+                                        </option>
                                         <option value="IL">
-                                            Israel</option>
+                                            Israel
+                                        </option>
                                         <option value="IT">
-                                            Italy</option>
+                                            Italy
+                                        </option>
                                         <option value="JM">
-                                            Jamaica</option>
+                                            Jamaica
+                                        </option>
                                         <option value="JP">
-                                            Japan</option>
+                                            Japan
+                                        </option>
                                         <option value="JE">
-                                            Jersey</option>
+                                            Jersey
+                                        </option>
                                         <option value="JO">
-                                            Jordan</option>
+                                            Jordan
+                                        </option>
                                         <option value="KZ">
-                                            Kazakhstan</option>
+                                            Kazakhstan
+                                        </option>
                                         <option value="KE">
-                                            Kenya</option>
+                                            Kenya
+                                        </option>
                                         <option value="KI">
-                                            Kiribati</option>
+                                            Kiribati
+                                        </option>
                                         <option value="KP">
-                                            Korea</option>
+                                            Korea
+                                        </option>
                                         <option value="KR">
-                                            Korea, Republic of</option>
+                                            Korea
+                                        </option>
                                         <option value="KW">
-                                            Kuwait</option>
+                                            Kuwait
+                                        </option>
                                         <option value="KG">
-                                            Kyrgyzstan</option>
+                                            Kyrgyzstan
+                                        </option>
                                         <option value="LA">
-                                            Lao People's Democratic Republic</option>
+                                            Lao People's Democratic Republic
+                                        </option>
                                         <option value="LV">
-                                            Latvia</option>
+                                            Latvia
+                                        </option>
                                         <option value="LB">
-                                            Lebanon</option>
+                                            Lebanon
+                                        </option>
                                         <option value="LS">
-                                            Lesotho</option>
+                                            Lesotho
+                                        </option>
                                         <option value="LR">
-                                            Liberia</option>
+                                            Liberia
+                                        </option>
                                         <option value="LY">
-                                            Libya</option>
+                                            Libya
+                                        </option>
                                         <option value="LI">
-                                            Liechtenstein</option>
+                                            Liechtenstein
+                                        </option>
                                         <option value="LT">
-                                            Lithuania</option>
+                                            Lithuania
+                                        </option>
                                         <option value="LU">
-                                            Luxembourg</option>
+                                            Luxembourg
+                                        </option>
                                         <option value="MO">
-                                            Macao</option>
+                                            Macao
+                                        </option>
                                         <option value="MK">
-                                            Macedonia</option>
+                                            Macedonia
+                                        </option>
                                         <option value="MG">
-                                            Madagascar</option>
+                                            Madagascar
+                                        </option>
                                         <option value="MW">
-                                            Malawi</option>
+                                            Malawi
+                                        </option>
                                         <option value="MY">
-                                            Malaysia</option>
+                                            Malaysia
+                                        </option>
                                         <option value="MV">
-                                            Maldives</option>
+                                            Maldives
+                                        </option>
                                         <option value="ML">
-                                            Mali</option>
+                                            Mali
+                                        </option>
                                         <option value="MT">
-                                            Malta</option>
+                                            Malta
+                                        </option>
                                         <option value="MH">
-                                            Marshall Islands</option>
+                                            Marshall Islands
+                                        </option>
                                         <option value="MQ">
-                                            Martinique</option>
+                                            Martinique
+                                        </option>
                                         <option value="MR">
-                                            Mauritania</option>
+                                            Mauritania
+                                        </option>
                                         <option value="MU">
-                                            Mauritius</option>
+                                            Mauritius
+                                        </option>
                                         <option value="YT">
-                                            Mayotte</option>
+                                            Mayotte
+                                        </option>
                                         <option value="MX">
-                                            Mexico</option>
+                                            Mexico
+                                        </option>
                                         <option value="FM">
-                                            Micronesia</option>
+                                            Micronesia
+                                        </option>
                                         <option value="MD">
-                                            Moldova, Republic of</option>
+                                            Moldova
+                                        </option>
                                         <option value="MC">
-                                            Monaco</option>
+                                            Monaco
+                                        </option>
                                         <option value="MN">
-                                            Mongolia</option>
+                                            Mongolia
+                                        </option>
                                         <option value="ME">
-                                            Montenegro</option>
+                                            Montenegro
+                                        </option>
                                         <option value="MS">
-                                            Montserrat</option>
+                                            Montserrat
+                                        </option>
                                         <option value="MA">
-                                            Morocco</option>
+                                            Morocco
+                                        </option>
                                         <option value="MZ">
-                                            Mozambique</option>
+                                            Mozambique
+                                        </option>
                                         <option value="MM">
-                                            Myanmar</option>
+                                            Myanmar
+                                        </option>
                                         <option value="NA">
-                                            Namibia</option>
+                                            Namibia
+                                        </option>
                                         <option value="NR">
-                                            Nauru</option>
+                                            Nauru
+                                        </option>
                                         <option value="NP">
-                                            Nepal</option>
+                                            Nepal
+                                        </option>
                                         <option value="NL">
-                                            Netherlands</option>
+                                            Netherlands
+                                        </option>
                                         <option value="NC">
-                                            New Caledonia</option>
+                                            New Caledonia
+                                        </option>
                                         <option value="NZ">
-                                            New Zealand</option>
+                                            New Zealand
+                                        </option>
                                         <option value="NI">
-                                            Nicaragua</option>
+                                            Nicaragua
+                                        </option>
                                         <option value="NE">
-                                            Niger</option>
+                                            Niger
+                                        </option>
                                         <option value="NG">
-                                            Nigeria</option>
+                                            Nigeria
+                                        </option>
                                         <option value="NU">
-                                            Niue</option>
+                                            Niue
+                                        </option>
                                         <option value="NF">
-                                            Norfolk Island</option>
+                                            Norfolk Island
+                                        </option>
                                         <option value="MP">
-                                            Northern Mariana Islands</option>
+                                            Northern Mariana Islands
+                                        </option>
                                         <option value="NO">
-                                            Norway</option>
+                                            Norway
+                                        </option>
                                         <option value="OM">
-                                            Oman</option>
+                                            Oman
+                                        </option>
                                         <option value="PK">
-                                            Pakistan</option>
+                                            Pakistan
+                                        </option>
                                         <option value="PW">
-                                            Palau</option>
+                                            Palau
+                                        </option>
                                         <option value="PS">
-                                            Palestinian Territory, Occupied</option>
+                                            Palestinian Territory
+                                        </option>
                                         <option value="PA">
-                                            Panama</option>
+                                            Panama
+                                        </option>
                                         <option value="PG">
-                                            Papua New Guinea</option>
+                                            Papua New Guinea
+                                        </option>
                                         <option value="PY">
-                                            Paraguay</option>
+                                            Paraguay
+                                        </option>
                                         <option value="PE">
-                                            Peru</option>
+                                            Peru
+                                        </option>
                                         <option value="PH">
-                                            Philippines</option>
+                                            Philippines
+                                        </option>
                                         <option value="PN">
-                                            Pitcairn</option>
+                                            Pitcairn
+                                        </option>
                                         <option value="PL">
-                                            Poland</option>
+                                            Poland
+                                        </option>
                                         <option value="PT">
-                                            Portugal</option>
+                                            Portugal
+                                        </option>
                                         <option value="PR">
-                                            Puerto Rico</option>
+                                            Puerto Rico
+                                        </option>
                                         <option value="QA">
-                                            Qatar</option>
+                                            Qatar
+                                        </option>
                                         <option value="RE">
-                                            Réunion</option>
+                                            Réunion
+                                        </option>
                                         <option value="RO">
-                                            Romania</option>
+                                            Romania
+                                        </option>
                                         <option value="RU">
-                                            Russian Federation</option>
+                                            Russian Federation
+                                        </option>
                                         <option value="RW">
-                                            Rwanda</option>
+                                            Rwanda
+                                        </option>
                                         <option value="BL">
-                                            Saint Barthélemy</option>
+                                            Saint Barthélemy
+                                        </option>
                                         <option value="SH">
-                                            Saint Helena</option>
+                                            Saint Helena
+                                        </option>
                                         <option value="KN">
-                                            Saint Kitts and Nevis</option>
+                                            Saint Kitts and Nevis
+                                        </option>
                                         <option value="LC">
-                                            Saint Lucia</option>
+                                            Saint Lucia
+                                        </option>
                                         <option value="MF">
-                                            Saint Martin (French part)</option>
+                                            Saint Martin
+                                        </option>
                                         <option value="PM">
-                                            Saint Pierre and Miquelon</option>
+                                            Saint Pierre and Miquelon
+                                        </option>
                                         <option value="VC">
-                                            Saint Vincent and the Grenadines</option>
+                                            Saint Vincent and the Grenadines
+                                        </option>
                                         <option value="WS">
-                                            Samoa</option>
+                                            Samoa
+                                        </option>
                                         <option value="SM">
-                                            San Marino</option>
+                                            San Marino
+                                        </option>
                                         <option value="ST">
-                                            Sao Tome and Principe</option>
+                                            Sao Tome and Principe
+                                        </option>
                                         <option value="SA">
-                                            Saudi Arabia</option>
+                                            Saudi Arabia
+                                        </option>
                                         <option value="SN">
-                                            Senegal</option>
+                                            Senegal
+                                        </option>
                                         <option value="RS">
-                                            Serbia</option>
+                                            Serbia
+                                        </option>
                                         <option value="SC">
-                                            Seychelles</option>
+                                            Seychelles
+                                        </option>
                                         <option value="SL">
-                                            Sierra Leone</option>
+                                            Sierra Leone
+                                        </option>
                                         <option value="SG">
-                                            Singapore</option>
+                                            Singapore
+                                        </option>
                                         <option value="SX">
-                                            Sint Maarten (Dutch part)</option>
+                                            Sint Maarten
+                                        </option>
                                         <option value="SK">
-                                            Slovakia</option>
+                                            Slovakia
+                                        </option>
                                         <option value="SI">
-                                            Slovenia</option>
+                                            Slovenia
+                                        </option>
                                         <option value="SB">
-                                            Solomon Islands</option>
+                                            Solomon Islands
+                                        </option>
                                         <option value="SO">
-                                            Somalia</option>
+                                            Somalia
+                                        </option>
                                         <option value="ZA">
-                                            South Africa</option>
+                                            South Africa
+                                        </option>
                                         <option value="GS">
-                                            South Georgia</option>
+                                            South Georgia
+                                        </option>
                                         <option value="SS">
-                                            South Sudan</option>
+                                            South Sudan
+                                        </option>
                                         <option value="ES">
-                                            Spain</option>
+                                            Spain
+                                        </option>
                                         <option value="LK">
-                                            Sri Lanka</option>
+                                            Sri Lanka
+                                        </option>
                                         <option value="SD">
-                                            Sudan</option>
+                                            Sudan
+                                        </option>
                                         <option value="SR">
-                                            Suriname</option>
+                                            Suriname
+                                        </option>
                                         <option value="SJ">
-                                            Svalbard and Jan Mayen</option>
+                                            Svalbard and Jan Mayen
+                                        </option>
                                         <option value="SZ">
-                                            Swaziland</option>
+                                            Swaziland
+                                        </option>
                                         <option value="SE">
-                                            Sweden</option>
+                                            Sweden
+                                        </option>
                                         <option value="CH">
-                                            Switzerland</option>
+                                            Switzerland
+                                        </option>
                                         <option value="SY">
-                                            Syrian Arab Republic</option>
+                                            Syrian Arab Republic
+                                        </option>
                                         <option value="TW">
                                             Taiwan/option>
+                                        </option>
                                         <option value="TJ">
-                                            Tajikistan</option>
+                                            Tajikistan
+                                        </option>
                                         <option value="TZ">
-                                            Tanzania</option>
+                                            Tanzania
+                                        </option>
                                         <option value="TH">
-                                            Thailand</option>
+                                            Thailand
+                                        </option>
                                         <option value="TL">
-                                            Timor-Leste</option>
+                                            Timor-Leste
+                                        </option>
                                         <option value="TG">
-                                            Togo</option>
+                                            Togo
+                                        </option>
                                         <option value="TK">
-                                            Tokelau</option>
+                                            Tokelau
+                                        </option>
                                         <option value="TO">
-                                            Tonga</option>
+                                            Tonga
+                                        </option>
                                         <option value="TT">
-                                            Trinidad and Tobago</option>
+                                            Trinidad and Tobago
+                                        </option>
                                         <option value="TN">
-                                            Tunisia</option>
+                                            Tunisia
+                                        </option>
                                         <option value="TR">
-                                            Turkey</option>
+                                            Turkey
+                                        </option>
                                         <option value="TM">
-                                            Turkmenistan</option>
+                                            Turkmenistan
+                                        </option>
                                         <option value="TC">
-                                            Turks and Caicos Islands</option>
+                                            Turks and Caicos Islands
+                                        </option>
                                         <option value="TV">
-                                            Tuvalu</option>
+                                            Tuvalu
+                                        </option>
                                         <option value="UG">
-                                            Uganda</option>
+                                            Uganda
+                                        </option>
                                         <option value="UA">
-                                            Ukraine</option>
+                                            Ukraine
+                                        </option>
                                         <option value="AE">
-                                            United Arab Emirates</option>
+                                            United Arab Emirates
+                                        </option>
                                         <option value="GB">
-                                            United Kingdom</option>
+                                            United Kingdom
+                                        </option>
                                         <option value="US">
-                                            United States</option>
+                                            United States
+                                        </option>
                                         <option value="UM">
-                                            United States Minor Outlying Islands</option>
+                                            US Minor Outlying Islands
+                                        </option>
                                         <option value="UY">
-                                            Uruguay</option>
+                                            Uruguay
+                                        </option>
                                         <option value="UZ">
-                                            Uzbekistan</option>
+                                            Uzbekistan
+                                        </option>
                                         <option value="VU">
-                                            Vanuatu</option>
+                                            Vanuatu
+                                        </option>
                                         <option value="VE">
-                                            Venezuela</option>
+                                            Venezuela
+                                        </option>
                                         <option value="VN">
-                                            Viet Nam</option>
+                                            Vietnam
+                                        </option>
                                         <option value="VG">
-                                            Virgin Islands, British</option>
+                                            Virgin Islands, British
+                                        </option>
                                         <option value="VI">
-                                            Virgin Islands, U.S.</option>
+                                            Virgin Islands, U.S.
+                                        </option>
                                         <option value="WF">
-                                            Wallis and Futuna</option>
+                                            Wallis and Futuna
+                                        </option>
                                         <option value="EH">
-                                            Western Sahara</option>
+                                            Western Sahara
+                                        </option>
                                         <option value="YE">
-                                            Yemen</option>
+                                            Yemen
+                                        </option>
                                         <option value="ZM">
-                                            Zambia</option>
+                                            Zambia
+                                        </option>
                                         <option value="ZW">
-                                            Zimbabwe</option>
+                                            Zimbabwe
+                                        </option>
                                     </select>
                                 </p>
-                                </fieldset>
+                                </p>
+                                <label class="form_content">
+                                    Gender:
+                                </label>
+                                <p class="form_content">
+                                    <label>Male</label>
+                                    <input type="radio" name="gender" value="male">
                                 </p>
                                 <p class="form_content">
-                                    <label></label>
-                                    <input type="radio" name="gender" id="male" value="male">
+                                    <label>Female</label>
+                                    <input type="radio" name="gender" value="male">
                                 </p>
-                            </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary"
+                                <button type="button" class="btn btn-success">
+                                    Submit
+                                </button>
+                                <button type="button" class="btn btn-danger"
                                         data-dismiss="modal">
                                     Close
                                 </button>
+                            </div>
                             </div>
                         </div>
                     </div>
