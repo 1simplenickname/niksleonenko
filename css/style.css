@@ -147,7 +147,7 @@ body::before {
     background-color:#FF1900;
     background-image:
             radial-gradient(circle farthest-side at top right, transparent, #FF9101),
-            radial-gradient(circle farthest-corner at top left, transparent, #00fe24),
+            radial-gradient(circle farthest-side at top left, transparent, #00fe24),
             radial-gradient(circle farthest-corner at 0% 100%, transparent, #fee600);
     animation:bg-change 60s infinite;
 }
