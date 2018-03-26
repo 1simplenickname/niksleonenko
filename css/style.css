@@ -34,7 +34,7 @@ body {
 
 #motto_main, #motto, #motto_main_mobile, #motto_mobile, #profile_header, #experience_header,
 #abilities_header, #projects_header, #contact_header,.profile_header, .abilities_header,
-span.caption_header, #social_header, #video_header {
+span.caption_header, #social_header, #video_header, #table_header {
     font-family: 'Sriracha', cursive;
 }
 
@@ -50,9 +50,14 @@ span.caption_header, #social_header, #video_header {
     height: 2048px;
 }
 
-#profile, #experience, #abilities, #projects, #contact, #video {
+#experience, #abilities, #projects, #table {
     padding-top: 90px;
     height: 1500px;
+}
+
+#profile, #contact, #video {
+    padding-top: 90px;
+    height: 3000px;
 }
 
 #abilities {
