@@ -46,18 +46,12 @@ span.caption_header, #social_header, #video_header, #table_header {
     padding-bottom: 25px;
 }
 
-#home {
-    height: 2048px;
+#home, #profile, #experience, #abilities, #projects, #contact, #video, #table {
+    height: 5120px;
 }
 
-#experience, #abilities, #projects, #table {
-    padding-top: 90px;
-    height: 1500px;
-}
-
-#profile, #contact, #video {
-    padding-top: 90px;
-    height: 3000px;
+#profile, #experience, #abilities, #projects, #contact, #video, #table {
+     padding-top: 55px;
 }
 
 #abilities {
