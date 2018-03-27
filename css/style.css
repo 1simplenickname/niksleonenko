@@ -28,6 +28,10 @@ body {
     width: auto;
 }
 
+#motto_main {
+    padding-top: 100px;
+}
+
 #motto_main_mobile, #motto_mobile {
     font-size: 20px;
 }
@@ -81,10 +85,6 @@ span.caption_header, #social_header, #video_header, #table_header {
 
 #contact_content {
     font-size: 25px;
-}
-
-#image:hover {
-    color: white;
 }
 
 .image, .you_are_the_only_exception {
