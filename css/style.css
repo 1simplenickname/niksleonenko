@@ -46,6 +46,10 @@ span.caption_header, #social_header, #video_header, #table_header {
     padding-bottom: 25px;
 }
 
+#home_button_text {
+    font-size: 30px;
+}
+
 #home, #profile, #experience, #abilities, #projects, #contact, #video, #table {
     height: 5120px;
 }
