@@ -148,11 +148,11 @@ body::before {
     z-index:-100;
     width:100%;
     height:100%;
-    background-color:#FF1900;
+    background-color:#0077c0;
     background-image:
-            radial-gradient(circle farthest-side at top right, transparent, #FF9101),
-            radial-gradient(circle farthest-side at top left, transparent, #00fe24),
-            radial-gradient(circle farthest-corner at 0% 100%, transparent, #fee600);
+            radial-gradient(circle farthest-side at top right, transparent, #ffce00),
+            radial-gradient(circle farthest-side at top left, transparent, #df1313),
+            radial-gradient(circle farthest-corner at 0% 100%, transparent, #9bc146);
     animation:bg-change 60s infinite;
 }
 
